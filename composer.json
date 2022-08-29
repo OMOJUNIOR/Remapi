@@ -1,0 +1,23 @@
+{
+    "name": "omojunior/remapi",
+    "description": "MTN momo api for Mymokopay",
+    "type": "liberary",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Omojunior\\Remapi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "omojunior",
+            "email": "sheriffmusa42@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "ramsey/uuid": "^4.4",
+        "laravel/pint": "^1.1"
+    }
+    
+}
