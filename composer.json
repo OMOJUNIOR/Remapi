@@ -1,6 +1,6 @@
 {
     "name": "omojunior/remapi",
-    "description": "MTN momo api for Mymokopay",
+    "description": "MTN momo api for Remittance Services",
     "type": "liberary",
     "license": "MIT",
     "autoload": {

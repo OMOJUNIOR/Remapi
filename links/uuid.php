@@ -1,6 +1,6 @@
 <?php
 
-$url = 'https://www.uuidtools.com/api/generate/v4';
+$url = 'https://www.uuidtools.com/api/generate/v4';//generate uuid for testing purposes
 
 if ($url) {
     $data = file_get_contents($url);

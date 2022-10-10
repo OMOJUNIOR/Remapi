@@ -136,9 +136,3 @@ class Remittance
     }
 }
 
-$token = new Remittance();
-
-$userdetails = $token->transferStatus('0880707020');  //transferFund('0880707020','60','Test two with auto uuid','Omo junior');
-echo '<pre>';
-print_r($userdetails);
-echo '</pre>';

@@ -9,8 +9,6 @@ class SandboxUserProvision
 {
     use Configuration;
 
-    // public $referenceId;
-
     public function __construct()
     {
         $this->referenceId = $this->getuuid();
@@ -46,12 +44,9 @@ class SandboxUserProvision
     public function getUser()
     {
         $url = $this->getBaseUrl();
-        //$uuid = $this->getReferenceId();
+       
 
         try {
-
-            // $url .= $this->userPath;
-            // $url .= $this->getReferenceId();
 
             $this->headers = [
                 'Ocp-Apim-Subscription-Key' => $this->primaryKey,
@@ -95,29 +90,3 @@ class SandboxUserProvision
     }
 }
 
-$creat = new SandboxUserProvision();
-
-//print_r($creat->getReferenceId());
-
-echo "\n";
-
-$db = $creat->createUser();
-
-print_r($db);
-echo "\n";
-
-echo $db = $creat->getUser();
-
-echo "\n";
-
-echo $db = $creat->createApikey();
-
-//print_r($creat->getReferenceId());
-
-//print_r($creat->createUser());
-
-//print_r($creat->getUser());
-
-//print_r($creat->createApikey());
-
-//apikey 50cc47e01f76465cb6c1c8cea2bad424//
